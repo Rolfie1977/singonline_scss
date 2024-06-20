@@ -1,0 +1,122 @@
+.navbar {
+  background-color: #3498db;
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar .navbar__item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbar .navbar__item:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+.search-bar .search-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.search-bar .search-button:hover {
+  background-color: #217dbb;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.categories .category-button, .categories .category-item {
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.categories .category-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+.categories .category-button:hover {
+  background-color: #217dbb;
+}
+.categories .category-item {
+  background-color: #b6daf2;
+  border: 1px solid #3498db;
+}
+.categories .category-item:hover {
+  background-color: #8bc4ea;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.content .content-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+.content .content-item img {
+  max-width: 100%;
+}
+.content .content-item h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.content .content-item p {
+  font-size: 12px;
+  color: #2ecc71;
+}
+.content .content-item ol {
+  padding: 0;
+  list-style: none;
+}
+.content .content-item ol li {
+  margin: 5px 0;
+}/*# sourceMappingURL=main.css.map */
